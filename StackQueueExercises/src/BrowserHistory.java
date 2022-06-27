@@ -2,22 +2,11 @@ import java.util.*;
 
 public class BrowserHistory {
     public static void main(String[] args) {
-        /*Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
-        ArrayDeque<String> stack = new ArrayDeque<>();*/
-        ArrayDeque<String> a = new ArrayDeque<>();
-        a.push("one");
-        a.push("two");
-        a.push("three");
-        a.push("four");
-        System.out.println(String.join(" ", a));
-        Queue<String> s = new ArrayDeque<>();
-        s.add("one");
-        s.add("two");
-        s.add("three");
-        s.add("four");
-        System.out.println(String.join(" ", s));
-        /*while (!input.equals("Home")){
+        ArrayDeque<String> stack = new ArrayDeque<>();
+
+        while (!input.equals("Home")){
 
             if (input.equals("back")){
                 if (stack.size() >= 2){
@@ -34,6 +23,6 @@ public class BrowserHistory {
             }
 
             input = scanner.nextLine();
-        }*/
+        }
     }
 }
